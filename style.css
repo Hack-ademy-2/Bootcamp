@@ -1,0 +1,31 @@
+body{
+
+    font-family: 'Jura', sans-serif;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+
+:root {
+    --text-primary-color:#0099ff; 
+    --text-secondary-color: #1CC8D9;
+    --text-third-color: #20F8CF;
+    --text-accent-color: #F89320;
+}
+.textoPrincipal{
+    color: var(--text-primary-color);
+}
+ .buttonCustom {
+     background-color: var(--text-primary-color);
+     color:white;
+     font-size: medium;
+
+ }
+ .descripcion{
+     color: var(--text-secondary-color);
+ }
